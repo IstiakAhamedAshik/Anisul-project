@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerece Project</title>
+    <link rel="stylesheet" href="anisul.css" />
+    <!-- fontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/76ca269b72.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-upper flex-space-around">
+        <li class="nav-list active">
+          <a class="nav-link" href="home.html">HOME</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="login.html">LOGIN</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="logout.html">LOGOUT</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="register.html">REGISTER</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="profile.html"
+            ><img
+              class="profile-icon"
+              src="IMAGES/IMG-20191113-WA0000.jpg"
+              alt=""
+          /></a>
+        </li>
+      </ul>
+      <ul class="nav-lower flex-space-around">
+        <li class="nav-list">
+          <a href="/index.html" class="nav-link nav-brand">ASHIK EXPRESS</a>
+        </li>
+        <li
+          class="nav-list"
+          style="font-size: 1.2rem; font-weight: bold; color: rgb(61, 42, 42)"
+        >
+          <a href="/index.html" class="nav-link"></a>Cart 2 products - $ 1232.65
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <div class="banner flex-space-around">
+        <marquee class="banner-title" behavior="" direction=""
+          >50% sales going on</marquee
+        >
+      </div>
+      <div class="features flex-space-around">
+        <article class="feature flex-center">
+          <i class="fas fa-truck feature-icon"></i>
+          <h3>shipping within 3 Days</h3>
+        </article>
+        <article class="feature flex-center">
+          <i class="fas fa-rocket feature-icon"></i>
+          <h3>Support 24/7</h3>
+        </article>
+        <article class="feature flex-center">
+          <i class="fab fa-cc-mastercard feature-icon"></i>
+          <h3>Save Money</h3>
+        </article>
+      </div>
+    </header>
+
+    <main class="product-cart-details">
+      <section class="product-Catogories">
+        <ul>
+          <h1 style="font-size: 34px">Categories</h1>
+          <li><input type="checkbox" />Telephones</li>
+          <li><input type="checkbox" />Tables</li>
+          <li><input type="checkbox" />Television</li>
+          <li><input type="checkbox" />Computers</li>
+          <li><input type="checkbox" />Headphones</li>
+          <li><input type="checkbox" />Smart home</li>
+        </ul>
+        <ul style="margin-top: 15px">
+          <h1 style="font-size: 34px">Price Range</h1>
+          <li><input type="radio" />$0-$20</li>
+          <li><input type="radio" />$50-$200</li>
+          <li><input type="radio" />$110-$250</li>
+          <li><input type="radio" />$101-$320</li>
+          <li><input type="radio" />$300+</li>
+        </ul>
+        <ul style="margin-top: 15px">
+          <h1 style="font-size: 34px">Shipping Option</h1>
+          <li><input type="radio" />Free Shipping</li>
+          <li><input type="radio" />Paid Shipping</li>
+        </ul>
+      </section>
+      <section class="product-cartinformation">
+        <div class="search-product">
+          Sort By :
+          <select class="select-option">
+            <option>Most sold first</option>
+            <option>Most ordered</option>
+            <option>Most bye item</option>
+          </select>
+          <span style="float: right; margin-right: 300px">
+            <input
+              id="product-search"
+              type="text"
+              placeholder="search product"
+            /><button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </span>
+        </div>
+        <div class="cart-container">
+          <div class="cart-details">
+            <img src="IMAGES/product1.jpg" alt="" />
+            <div class="cart-information">
+              <h2>Sony V-4 Headphones</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dicta totam, atque nemo dolore adipisci
+                ratione...Learn More
+              </p>
+              <p>$225.99</p>
+              <p>Rating : 4.5/5</p>
+              <button class="cart-btn">ADD TO CART</button>
+            </div>
+            <div class="position">
+              <p>5 in stock</p>
+              <hr style="margin: 7px 0" />
+              <p style="text-align: center">3 sold</p>
+            </div>
+          </div>
+          <div class="cart-details">
+            <img src="IMAGES/product2.png" alt="" />
+            <div class="cart-information">
+              <h2>Apple smart watch</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dicta totam, atque nemo dolore adipisci
+                ratione...Learn More
+              </p>
+              <p>$425.99</p>
+              <p>Rating : 4.0/5</p>
+              <button class="cart-btn">ADD TO CART</button>
+            </div>
+            <div class="position">
+              <p>5 in stock</p>
+              <hr style="margin: 7px 0" />
+              <p style="text-align: center">3 sold</p>
+            </div>
+          </div>
+          <div class="cart-details">
+            <img src="IMAGES/product3.jpg" alt="" />
+            <div class="cart-information">
+              <h2>Apple smart glass</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dicta totam, atque nemo dolore adipisci
+                ratione...Learn More
+              </p>
+              <p>$325.99</p>
+              <p>Rating : 3.5/5</p>
+              <button class="cart-btn">ADD TO CART</button>
+            </div>
+            <div class="position">
+              <p>5 in stock</p>
+              <hr style="margin: 7px 0" />
+              <p style="text-align: center">3 sold</p>
+            </div>
+          </div>
+          <div class="cart-details">
+            <img src="IMAGES/product4.jpg" alt="" />
+            <div class="cart-information">
+              <h2>Nike Shoes</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dicta totam, atque nemo dolore adipisci
+                ratione...Learn More
+              </p>
+              <p>$625.99</p>
+              <p>Rating : 4.8/5</p>
+              <button class="cart-btn">ADD TO CART</button>
+            </div>
+            <div class="position">
+              <p>5 in stock</p>
+              <hr style="margin: 7px 0" />
+              <p style="text-align: center">3 sold</p>
+            </div>
+          </div>
+          <div class="cart-details">
+            <img src="IMAGES/product5.jpg" alt="" />
+            <div class="cart-information">
+              <h2>Nike watch</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dicta totam, atque nemo dolore adipisci
+                ratione...Learn More
+              </p>
+              <p>$125.99</p>
+              <p>Rating : 4.5/5</p>
+              <button class="cart-btn">ADD TO CART</button>
+            </div>
+            <div class="position">
+              <p>5 in stock</p>
+              <hr style="margin: 7px 0" />
+              <p style="text-align: center">3 sold</p>
+            </div>
+          </div>
+          <div class="cart-details">
+            <img src="IMAGES/product6.jpg" alt="" />
+            <div class="cart-information">
+              <h2>google Nest</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dicta totam, atque nemo dolore adipisci
+                ratione...Learn More
+              </p>
+              <p>$285.99</p>
+              <p>Rating : 3.5/5</p>
+              <button class="cart-btn">ADD TO CART</button>
+            </div>
+            <div class="position">
+              <p>5 in stock</p>
+              <hr style="margin: 7px 0" />
+              <p style="text-align: center">3 sold</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section>
+      <div class="pageination">
+        <button class="btn-page">1</button>
+        <button class="btn-page">2</button>
+        <button class="btn-page">3</button>
+        <button class="btn-page">4</button>
+        <button class="btn-page">5</button>
+        <button class="btn-page">6</button>
+        <button class="btn-page">7</button>
+        <button class="btn-page">8</button>
+        <button class="btn-page">9</button>
+        <button class="btn-page"><i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+    <footer class="footer-class flex-space-around">
+      <div>
+        <span style="font-size: 22px; color: white"
+          >Subscribe For Newslater :</span
+        >
+        <input id="email-field" type="text" placeholder="your email address" />
+        <input class="input-button" type="button" value="subscribe" />
+      </div>
+      <p style="font-size: 29px; color: white">
+        <span style="font-size: 29px; color: red">&copy</span>Copyright 2023
+        Ashik Express . All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
