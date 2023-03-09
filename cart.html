@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerece Project</title>
+    <link rel="stylesheet" href="anisul.css" />
+    <!-- fontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/76ca269b72.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-upper flex-space-around">
+        <li class="nav-list"><a class="nav-link" href="home.html">HOME</a></li>
+        <li class="nav-list">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link active" href="login.html">LOGIN</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="logout.html">LOGOUT</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="register.html">REGISTER</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="profile.html"
+            ><img
+              class="profile-icon"
+              src="IMAGES/IMG-20191113-WA0000.jpg"
+              alt=""
+          /></a>
+        </li>
+      </ul>
+      <ul class="nav-lower flex-space-around">
+        <li class="nav-list">
+          <a href="/index.html" class="nav-link nav-brand">ASHIK EXPRESS</a>
+        </li>
+        <li
+          class="nav-list"
+          style="font-size: 1.2rem; font-weight: bold; color: rgb(61, 42, 42)"
+        >
+          <a href="/index.html" class="nav-link"></a>Cart 2 products - $ 1232.65
+        </li>
+      </ul>
+    </nav>
+    <section class="cart">
+      <div class="cart-details">
+        <div class="name">
+          <h1>Shopping Cart [2 items]</h1>
+          <div class="items">
+            <li style="font-size: 20px">
+              <input style="margin-right: 5px" type="checkbox" />Select All
+              items
+            </li>
+            <p>
+              <i
+                style="
+                  background-color: bisque;
+                  padding: 9px;
+                  border-radius: 5px;
+                "
+                class="fas fa-trash"
+              ></i>
+            </p>
+            <button
+              style="
+                background-color: rgb(199, 194, 189);
+                padding: 6px;
+                font-weight: bold;
+                border-style: none;
+              "
+            >
+              SHOPE MORE
+            </button>
+          </div>
+        </div>
+
+        <div class="cart-items">
+          <img
+            style="width: 300px"
+            src="IMAGES/product1.jpg"
+            alt=""
+            srcset=""
+          />
+          <div>
+            <h2>Sony V-4 Headphone</h2>
+            <p>Price : $225.99</p>
+            <p>free Shipping</p>
+          </div>
+          <div>
+            <p><i class="fas fa-trash"></i></p>
+            <input type="number" />
+          </div>
+        </div>
+      </div>
+      <div class="payment-method">
+        <h1>Payment Summary</h1>
+        <p>Subtotal: <span>$341</span></p>
+        <p>Shipping Cost: <span>$3.1</span></p>
+        <p>Total cost: <span>$231</span></p>
+        <button>Pay Now</button>
+      </div>
+    </section>
+    <footer class="footer-class flex-space-around">
+      <div>
+        <span style="font-size: 22px; color: white"
+          >Subscribe For Newslater :</span
+        >
+        <input id="email-field" type="text" placeholder="your email address" />
+        <input class="input-button" type="button" value="subscribe" />
+      </div>
+      <p style="font-size: 29px; color: white">
+        <span style="font-size: 29px; color: red">&copy</span>Copyright 2023
+        Ashik Express . All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
