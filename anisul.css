@@ -215,17 +215,17 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
-.cart-details {
+.cart-details1 {
+  margin-left: 20px;
   width: 800px;
-  background-color: blue;
 }
 .name {
   margin-bottom: 30px;
-  background: white;
   padding: 10px;
   border-radius: 10px;
+  background-color: white;
   box-shadow: var(--box-shadow);
 }
 .items {
@@ -235,10 +235,12 @@ nav {
 }
 .cart-items {
   background: white;
+  margin-top: 15px;
   padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
   box-shadow: var(--box-shadow);
 }
 /* footer */
