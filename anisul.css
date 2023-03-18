@@ -380,6 +380,10 @@ nav {
   border-radius: 50%;
   object-fit: cover;
 }
+address > p {
+  font-size: 30px;
+  margin-top: 10px;
+}
 /* footer */
 .footer-class {
   background-color: var(--primary-color);
